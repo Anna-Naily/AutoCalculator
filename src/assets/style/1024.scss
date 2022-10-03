@@ -1,0 +1,40 @@
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    .main-container{
+        max-width: 928px !important;
+    }
+    .heading{
+        margin: 100px 0px 44px 0px;
+     
+    }
+    .center-block{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 7px;
+    }
+    .center-block__element{
+        width: 100%;
+        margin-bottom: 32px;
+    }
+    input[type="range"] {
+        width: 94.5%;
+      }
+      .bottom-block{
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .bottom-block__element{
+        margin-right: 19%;
+      }
+      
+      .bottom-block__btn{
+        padding: 18px 52px;
+        transition: 0.2s;
+        margin-top: 44px;
+      }
+      .spinner{
+        font-size: 13px;
+        position: absolute;
+        left: 6%;
+        top: 81%;
+      }
+}

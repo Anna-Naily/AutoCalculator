@@ -1,0 +1,12 @@
+.main-container {
+    margin: 0 auto;
+    max-width: 1345px;
+}
+.disable{
+    pointer-events: none; 
+    opacity: 40%;
+}
+.container{
+--bs-gutter-x: 0;
+--bs-gutter-y: 0;
+}
